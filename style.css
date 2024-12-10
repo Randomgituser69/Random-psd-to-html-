@@ -75,8 +75,11 @@ textarea:not([rows]) {
 
 /* CSS style */
 :root {
-
+ --background: #1d1e1a;
+  --silver: #bacad7;
+  --yellow: #f7b220;
+  --green: #83a100;
 }
 * {
-
+font-family: 'Poppins', sans-serif;
 }
