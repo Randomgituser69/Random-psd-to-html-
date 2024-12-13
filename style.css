@@ -100,16 +100,80 @@ textarea:not([rows]) {
   font-family: "Poppins", sans-serif;
 }
 body {
+  background-image: url("Design\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--background);
-  font-weight: 400;
   color: var(--silver);
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 50px;
+}
+.wrapper img {
+  display: block;
+  height: 95px;
+  width: 105px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+} /*
+.container img {
+  height: 830px;
+} */
+h1,
+span {
+  font-family: "Dongle", sans-serif;
 }
 h1 {
-  color: var(--white);
+  width: 450px;
+  font-size: 7rem;
+  color: white;
   font-weight: 700; /* FOR NAVIGATION BAR, IT'LL BE 500 */
 }
+span {
+  font-size: 3.5rem;
+  color: var(--yellow);
+  font-weight: 700;
+  border-bottom: 4px solid var(--yellow);
+}
+p {
+  width: 700px;
+  height: 105px;
+  font-weight: 400;
+}
 button {
+  width: 200px;
+}
+.order {
   font-weight: 600;
   color: white;
-  background-color: var(--green); /* Background will be transparent for another one */
+  background-color: var(
+    --green
+  ); /* Background will be transparent for another one */
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+}
+.read {
+  background-color: var(--background);
+  color: white;
+  border: 2px solid white; 
+  border-radius: 1em;
+  padding: 1em;
 }
